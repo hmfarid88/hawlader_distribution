@@ -1,0 +1,128 @@
+   
+
+.navbar {
+    border-radius: 0;
+    width: 100%;
+    background-color: #030303;
+    border-color:white; 
+}
+
+.navbar-inverse .navbar-nav>li>a {
+
+    font-size: 20px;
+    font-family: fontawesome;
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #030303;
+    color: white;
+}
+#bg{
+
+background-color: black;
+   }
+  
+.fa-facebook{color: white;}
+.fa-twitter{color: white;}
+.fa-google{color: white;}
+.fa-youtube{color: white;}
+.fa-instagram{color: white;}
+.fa-yahoo{color: white;}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+}
+body {font-family: fontawesome;}
+
+
+fieldset.scheduler-border {
+    border: 1px groove green ;
+    padding: 0 1.4em 1.4em 1.4em ;
+    margin: 0 0 1.5em 0;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    width:inherit; 
+    padding:0px 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
+
+#drop{
+    position: relative;
+    display: inline-block;   
+}
+/*select:hover, select:focus {
+  font-size: 20px;
+  }*/
+#dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+}
+#dropdown a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: fontawesome;
+    display: block;
+}
+#drop:hover #dropdown{
+    display: block;
+}
+#dropdown a:hover{
+
+    background-color: #CCCCCC;
+}
+
+/*smotharea*/
+#main{
+
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
